@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21E89FDF264923C1000B31A0 /* CombineSchedulerSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E89FDE264923C1000B31A0 /* CombineSchedulerSampleApp.swift */; };
+		21E89FE3264923C2000B31A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21E89FE2264923C2000B31A0 /* Assets.xcassets */; };
+		21E89FE6264923C2000B31A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21E89FE5264923C2000B31A0 /* Preview Assets.xcassets */; };
+		21E89FF126493D77000B31A0 /* WithCombineScheduler in Frameworks */ = {isa = PBXBuildFile; productRef = 21E89FF026493D77000B31A0 /* WithCombineScheduler */; };
+		21E89FF326493E1C000B31A0 /* WithoutCombineScheduler in Frameworks */ = {isa = PBXBuildFile; productRef = 21E89FF226493E1C000B31A0 /* WithoutCombineScheduler */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21E89FDB264923C1000B31A0 /* CombineSchedulerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineSchedulerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21E89FDE264923C1000B31A0 /* CombineSchedulerSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineSchedulerSampleApp.swift; sourceTree = "<group>"; };
+		21E89FE2264923C2000B31A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21E89FE5264923C2000B31A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		21E89FE7264923C2000B31A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21E89FD8264923C1000B31A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21E89FF126493D77000B31A0 /* WithCombineScheduler in Frameworks */,
+				21E89FF326493E1C000B31A0 /* WithoutCombineScheduler in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21E89FD2264923C1000B31A0 = {
+			isa = PBXGroup;
+			children = (
+				21E89FDD264923C1000B31A0 /* CombineSchedulerSample */,
+				21E89FDC264923C1000B31A0 /* Products */,
+				21E89FED26493990000B31A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		21E89FDC264923C1000B31A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21E89FDB264923C1000B31A0 /* CombineSchedulerSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21E89FDD264923C1000B31A0 /* CombineSchedulerSample */ = {
+			isa = PBXGroup;
+			children = (
+				21E89FDE264923C1000B31A0 /* CombineSchedulerSampleApp.swift */,
+				21E89FE2264923C2000B31A0 /* Assets.xcassets */,
+				21E89FE7264923C2000B31A0 /* Info.plist */,
+				21E89FE4264923C2000B31A0 /* Preview Content */,
+			);
+			path = CombineSchedulerSample;
+			sourceTree = "<group>";
+		};
+		21E89FE4264923C2000B31A0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				21E89FE5264923C2000B31A0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		21E89FED26493990000B31A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21E89FDA264923C1000B31A0 /* CombineSchedulerSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21E89FEA264923C2000B31A0 /* Build configuration list for PBXNativeTarget "CombineSchedulerSample" */;
+			buildPhases = (
+				21E89FD7264923C1000B31A0 /* Sources */,
+				21E89FD8264923C1000B31A0 /* Frameworks */,
+				21E89FD9264923C1000B31A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CombineSchedulerSample;
+			packageProductDependencies = (
+				21E89FF026493D77000B31A0 /* WithCombineScheduler */,
+				21E89FF226493E1C000B31A0 /* WithoutCombineScheduler */,
+			);
+			productName = CombineSchedulerSample;
+			productReference = 21E89FDB264923C1000B31A0 /* CombineSchedulerSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21E89FD3264923C1000B31A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					21E89FDA264923C1000B31A0 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 21E89FD6264923C1000B31A0 /* Build configuration list for PBXProject "CombineSchedulerSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21E89FD2264923C1000B31A0;
+			productRefGroup = 21E89FDC264923C1000B31A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21E89FDA264923C1000B31A0 /* CombineSchedulerSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21E89FD9264923C1000B31A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21E89FE6264923C2000B31A0 /* Preview Assets.xcassets in Resources */,
+				21E89FE3264923C2000B31A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21E89FD7264923C1000B31A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21E89FDF264923C1000B31A0 /* CombineSchedulerSampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		21E89FE8264923C2000B31A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21E89FE9264923C2000B31A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21E89FEB264923C2000B31A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CombineSchedulerSample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CombineSchedulerSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = volvocars.CombineSchedulerSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21E89FEC264923C2000B31A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CombineSchedulerSample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CombineSchedulerSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = volvocars.CombineSchedulerSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21E89FD6264923C1000B31A0 /* Build configuration list for PBXProject "CombineSchedulerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21E89FE8264923C2000B31A0 /* Debug */,
+				21E89FE9264923C2000B31A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21E89FEA264923C2000B31A0 /* Build configuration list for PBXNativeTarget "CombineSchedulerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21E89FEB264923C2000B31A0 /* Debug */,
+				21E89FEC264923C2000B31A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		21E89FF026493D77000B31A0 /* WithCombineScheduler */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WithCombineScheduler;
+		};
+		21E89FF226493E1C000B31A0 /* WithoutCombineScheduler */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WithoutCombineScheduler;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 21E89FD3264923C1000B31A0 /* Project object */;
+}
