@@ -47,6 +47,8 @@ extension WeatherClient {
                 }
                 .eraseToAnyPublisher()
         })
+    
+    
 }
 private let decoder = JSONDecoder()
 private let urlSession = URLSession(configuration: .ephemeral)

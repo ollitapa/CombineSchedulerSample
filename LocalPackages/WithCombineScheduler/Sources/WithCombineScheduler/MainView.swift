@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+public let mainView = AnyView(MainView(model: ViewModel(env: .live)))
+
 struct MainView: View {
 
     @ObservedObject var model: ViewModel
